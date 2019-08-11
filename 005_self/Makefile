@@ -2,6 +2,7 @@ CC=gcc
 SRC=./src/a.c
 BIN=./bin/a.out
 CFLAGS=\
+       -Wall \
        	-I./include \
 	-L./lib 
 $(BIN):$(SRC)

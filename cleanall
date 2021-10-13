@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -d */|while read DIR;do make clean -C $DIR;rm -r $DIR/bin;done
